@@ -33,7 +33,7 @@ void draw(char *b, int w, int h)
 	for (int y = 0; y < h; y++)\
 	{
 		for (int x = 0; x < w; x++)
-			putchar(b[y * w + x] ? '0' : ' ');
+			putchar(b[y * w + x] ? 'O' : ' ');
 		putchar('\n');
 	}
 }
